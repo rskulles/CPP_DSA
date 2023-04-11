@@ -11,7 +11,7 @@ http_archive(
 
 # Hedron's Compile Commands Extractor for Bazel
 # https://github.com/hedronvision/bazel-compile-commands-extractor
-# For easy mode usage bazel(isk) run @hedron_compile_commands//refresh_all
+# For easy mode usage bazel(isk) run @hedron_compile_commands//:refresh_all
 http_archive(
     name = "hedron_compile_commands",
 

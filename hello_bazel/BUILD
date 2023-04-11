@@ -6,7 +6,8 @@ cc_library(
 
 cc_binary(
 	name = "hello-bazel",
-	srcs = ["main.cpp"]
+	srcs = ["main.cpp"],
+	linkopts = ["-lsfml-graphics", "-lsfml-window", "-lsfml-system"],
 )
 
 cc_test(
